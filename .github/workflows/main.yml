@@ -21,6 +21,7 @@ jobs:
         with:
           key: ${{ secrets.SSH_KEY }}
           host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}
           script: |
             cd polar-be
